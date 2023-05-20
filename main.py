@@ -140,7 +140,7 @@ def lookup_vin(vin: str):
 
 """
 
-This remove route takes a vin, and checks validity of vin value.  If invalid, returns object with vin value and delete success equal to false.  
+This remove route takes a vin, and checks validity of vin value.  If invalid, returns error message.  
 Otherwise, checks if available in cache.  If available, removes record and returns object with vin value and delete success equal to true.  
 Otherwise, returns object with vin value and delete success equal to false.  
 
